@@ -47,9 +47,9 @@ Import Css
 /*---------------------------------------------------------------------
   General
 -----------------------------------------------------------------------*/
-*::-moz-selection { background: #f05c42; color: #fff; text-shadow: none; }
-::-moz-selection { background: #f05c42; color: #fff; text-shadow: none; }
-::selection { background: #f05c42; color: #fff; text-shadow: none; }
+*::-moz-selection { background: #007bff; color: #fff; text-shadow: none; }
+::-moz-selection { background: #007bff; color: #fff; text-shadow: none; }
+::selection { background: #007bff; color: #fff; text-shadow: none; }
 html, body { overflow-x: hidden; }
 body { font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: normal; line-height: 26px; color: #525564; position: relative; }
 a, .button { transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; color: #59597e; }
@@ -79,7 +79,7 @@ hr { margin: 0; padding: 0px; border-bottom: 1px solid #eeeeee; display: block; 
 /*---------------------------------------------------------------------
 Text color
 -----------------------------------------------------------------------*/
-.main-color { color: #f05c42; }
+.main-color { color: #007bff; }
 .text-white { color: #ffffff; }
 .text-black { color: #0b0b0b; }
 .text-gray { color: #5e7290; }
@@ -87,7 +87,7 @@ Text color
 /*---------------------------------------------------------------------
 Background  color
 -----------------------------------------------------------------------*/
-.main-bg { background: #f05c42; }
+.main-bg { background: #007bff; }
 .white-bg { background: #ffffff; }
 .gray-bg { background: #F5F7FD; }
 .light-orange-bg { background: #ffebe6 }
@@ -96,7 +96,7 @@ Background  color
 .pink-bg { background: #feeeef; }
 
 /*Gradient-Color*/
-.gradient-bg { background-image: linear-gradient(to right, #ec2e47 0%, #ee3e3e 51%, #ee4e34 100%); }
+.gradient-bg { background-image: linear-gradient(to right, #007bff 0%, #007bff 51%, #007bff 100%); }
 
 /* ------------------------------
 Button
@@ -110,9 +110,9 @@ Button
 .iq-button.btn-white:hover em { background: #ffffff; transform: scaleX(0.4); }
 .iq-button.btn-white em { position: absolute; height: 1px; background: #2b2b2b; }
 .iq-button.btn-white:before, .iq-button.btn-white:after { content: ''; background: #2b2b2b; }
-.iq-gradient-btn { background-image: linear-gradient(to right, #ec2e47 0%, #ee3e3e 51%, #ee4e34 100%); }
+.iq-gradient-btn { background-image: linear-gradient(to right, #007bff 0%, #007bff 51%, #007bff 100%); }
 .iq-gradient-btn:hover { color: #ffffff; background-position: right center; }
-.iq-button { cursor: pointer; background-color: #f05c42; color: #ffffff; line-height: 2; position: relative; z-index: 0; box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.34); overflow: hidden; display: inline-block; padding: 15px 80px 15px 30px; font-size: 16px; border-radius: 4px; text-transform: capitalize; box-shadow: 0px 16px 20px 0px rgba(255, 98, 0, 0.1); }
+.iq-button { cursor: pointer; background-color: #007bff; color: #ffffff; line-height: 2; position: relative; z-index: 0; box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.34); overflow: hidden; display: inline-block; padding: 15px 80px 15px 30px; font-size: 16px; border-radius: 4px; text-transform: capitalize; box-shadow: 0px 16px 20px 0px rgba(255, 98, 0, 0.1); }
 .iq-button span { color: #fff; display: block; text-transform: capitalize; transform: scaleX(0.9); letter-spacing: 3px; transform-origin: center left; transition: color 0.3s ease; position: relative; z-index: 1; font-size: 16px; font-family: 'Bebas Neue', cursive; }
 .iq-button em { position: absolute; height: 1px; background: #fff; width: 47%; right: 30px; top: 46%; transform: scaleX(0.25); transform-origin: center right; transition: all 0.3s ease; z-index: 1; }
 .iq-button:before, .iq-button:after {z-index: -1; content: ''; background: #0b0b0b; height: 50%; width: 0; position: absolute; transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
@@ -143,7 +143,7 @@ Button
 .iq-title-box .iq-title-desc { margin-top: 15px; margin-bottom: 0; }
 .iq-title-box { margin-bottom: 60px; }
 .iq-title-box i { font-size: 30px; margin-bottom: 15px; }
-.iq-title-box .iq-line { width: 130px; height: 10px; background: #f05c42; margin-bottom: 0px; position: absolute; top: 31px; left: 0; right: 0; margin: 0 auto; z-index: -1; }
+.iq-title-box .iq-line { width: 130px; height: 10px; background: #007bff; margin-bottom: 0px; position: absolute; top: 31px; left: 0; right: 0; margin: 0 auto; z-index: -1; }
 .iq-title-box .iq-line.two { width: 265px; left: 54px; margin: 0; }
 .iq-title-box .iq-line.three { left: 87px; margin: 0; }
 .iq-title-box .iq-line.four { width: 142px; left: auto; right: 99px; margin: 0; }
@@ -173,7 +173,7 @@ color: #ebebeb; }
 :-moz-placeholder {/*  Firefox 18- */
 color: #ebebeb; }
 textarea.form-control { height: 230px; padding: 15px 30px; }
-input:hover, input.form-control:hover, input:focus, input.form-control:focus, textarea.form-control:hover, textarea.form-control:focus, select:hover, select:focus, select.form-control:focus, textarea:focus, textarea:hover ,input:hover,input[type=text]:hover { border: 1px solid #f05c42; box-shadow: none; outline: none; }
+input:hover, input.form-control:hover, input:focus, input.form-control:focus, textarea.form-control:hover, textarea.form-control:focus, select:hover, select:focus, select.form-control:focus, textarea:focus, textarea:hover ,input:hover,input[type=text]:hover { border: 1px solid #007bff; box-shadow: none; outline: none; }
 
 /*---------------------------------------------------------------------
   Loader
