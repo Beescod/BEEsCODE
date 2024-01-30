@@ -39,7 +39,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 
 /*---------------------------------------------------------------------
   HTML Tags
------------------------------------------------------------------------*/3
+-----------------------------------------------------------------------*/
 a { color: #007bff; outline: none; text-decoration: none; }
 a:focus, a:hover { color: #0b0b0b; outline: none; }
 ins { background: #fff9c0; text-decoration: none; }
