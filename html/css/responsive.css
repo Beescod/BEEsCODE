@@ -5,6 +5,34 @@ Version: 1.0
 Design and Developed by: iqonicthemes.in
 */
 
+
+.iq-banner-video {
+  position: relative;
+  overflow: hidden;
+}
+
+.iq-gif {
+  width: 100%; /* Make the image fill the container */
+  display: block;
+}
+
+.iq-waves {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.waves {
+  /* Your wave styles go here */
+}
+
+
+
+
+
+
 @media only screen and (min-width:1200px) {
 }
 @media(max-width:1920px) {
